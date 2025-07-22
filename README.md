@@ -7,7 +7,7 @@ Give Me Credit Kaggle Project
 
 The data used in this project can be found on Kaggle: https://www.kaggle.com/c/GiveMeSomeCredit/data
 
-In this project, we used Fastai's TabularLearner to build a deep NN for credit classification. As the dataset is highly imbalanced, we employed two techniques to take into account this fact during modelling, and they are as follows:
+In this project, we used FastAI's TabularLearner to build a deep NN for credit classification. As the dataset is highly imbalanced, we employed two techniques to take into account this fact during modelling, and they are as follows:
 
 - We employed oversampling for the minority class using simple random oversampling
 - In addition, we also employed cost-sensitive learning into our TabularLearner model.
